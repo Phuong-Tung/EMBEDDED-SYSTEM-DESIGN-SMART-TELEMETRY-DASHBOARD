@@ -24,3 +24,7 @@ d.temperature = parts[4].toFloat();
 d.continuousDrive = parts[7].toInt();
 d.engineOn = parts[9].toInt() == 0;
 
+### 2. Giao diện hiển thị thông minh (Smart UI/UX)
+Sử dụng kỹ thuật Smart Redraw trên màn hình TFT ILI9341 giúp tối ưu hóa tốc độ làm tươi và loại bỏ hiện tượng nháy màn hình:
+Hiển thị: Tốc độ (Speed), Thời gian lái xe (Driving Time), Trạng thái động cơ (Engine), ID Tài xế.
+Menu cài đặt: Cho phép thay đổi ngưỡng nhiệt độ cảnh báo trực tiếp trên thiết bị.
